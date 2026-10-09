@@ -5,7 +5,7 @@ about financial products (loans, fixed deposits, mutual funds) using only the
 company's policy PDFs. Every answer ends with a source line showing the
 document title and section.
 
-**Live app:** [your Streamlit URL]
+**Live app:** [(https://fintech-support-assistant-mdqqmqdycnfntiwxk7r6za.streamlit.app/)]
 
 ## Features
 - Answers grounded only in the provided PDFs (no guessing)
