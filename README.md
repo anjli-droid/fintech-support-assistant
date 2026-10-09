@@ -70,19 +70,9 @@ Copy `.env.example` to `.env` and add your own key:
 ```
 GROQ_API_KEY=your_groq_api_key_here
 ```
-When deployed on Streamlit Community Cloud, add the key under
-Settings -> Secrets instead of using a `.env` file.
 
 ## API Documentation
 Not applicable. The app is a Streamlit web interface and exposes no API
 endpoint of its own. It calls the Groq API internally for the LLM.
 
-## Evaluation
-[Write 2-3 lines: how many test questions, which categories (in-document,
-follow-up, out-of-scope, prompt injection), and the result.]
 
-## Limitations and Future Improvements
-- Retrieval uses only the current question, so very short follow-ups can retrieve weak chunks
-- Split chunks at section headings so each keeps its section number
-- Use MMR retrieval to avoid duplicate chunks
-- Save the FAISS index to disk so it is not rebuilt every session
